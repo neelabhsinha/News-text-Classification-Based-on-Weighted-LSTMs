@@ -6,14 +6,14 @@ Dataset is available at: [20 News Groups] (http://qwone.com/~jason/20Newsgroups/
 
 Description of Files in this repository:
 
-Final_CODE.ipynb : Contains our source code
-Generator.ipynb : Contains the code for word2vec and dataset generations
-train_data.p : Training dataset after cleaning
-desired_train_data.p : Training desired values
-test_data.p : Testing dataset after cleaning
-desired_test_data.p : Testing desired values
-Predictions : The prediction list of 100 documents
-wordvectors1.kv : word2vec generated keyed vectors
+Final_CODE.ipynb : Contains our source code   
+- Generator.ipynb : Contains the code for word2vec and dataset generations     
+- train_data.p : Training dataset after cleaning  
+- desired_train_data.p : Training desired values  
+- test_data.p : Testing dataset after cleaning  
+- desired_test_data.p : Testing desired values 
+- Predictions : The prediction list of 100 documents  
+- wordvectors1.kv : word2vec generated keyed vectors 
 
 Obtained Results:
 - Long Short-Term Memory Netwerk (LSTM RNN) | Accuracy: 82.2%   
