@@ -1,16 +1,25 @@
 # News-text-Classification-Based-on-Weighted-LSTMs
 
-Implementation of the paper: Link
+This repository is an attempt to implement the technique used in the paper [W-RNN: News Text Classification based on a Weighted RNN](https://arxiv.org/ftp/arxiv/papers/1909/1909.13077.pdf), and then comparing it with tge results obtained with standard LSTM based and Bi-LSTM based techniques.
 
-Please download the pickle files(as used by the code) of the processed data using this link: Data and Word2Vec Model. The above link contains 5 files as follows:
+Dataset is available at: [20 News Groups] (http://qwone.com/~jason/20Newsgroups/)
 
-train_data.p : Used for training the model
-desired_train_data.p : Desired output values for the training data
-test_data.p : Used for testing the model
-desired_test_data.p : The actual expected results for the test data
-wordvectors1.kv : The word2vec model used to develop the word embeddings for the news text
-The implementation uses the architecture as given in the above paper but a few modifications has been made to the hyperparameters and implementation specifications to improve on the same.
+Description of Files in this repository:
 
-Original Dataset: Link
+Final_CODE.ipynb : Contains our source code
+Generator.ipynb : Contains the code for word2vec and dataset generations
+train_data.p : Training dataset after cleaning
+desired_train_data.p : Training desired values
+test_data.p : Testing dataset after cleaning
+desired_test_data.p : Testing desired values
+Predictions : The prediction list of 100 documents
+wordvectors1.kv : word2vec generated keyed vectors
 
-Predictions.xlsx shows the result for the first 100 predictions.
+Obtained Results:
+- Long Short-Term Memory Netwerk (LSTM RNN) | Accuracy: 82.2%   
+- Bi-directional Long Short-Term Memory Netwerk (Bi-LSTM RNN) | Accuracy: 87.9%  
+- Weighted RNN (W-RNN) | Accuracy: 89.0%  
+
+We also developed a new algorithm here which combines the characteristics of both Bi-LSTM RNN and W-RNN and achieves a maximum test accuracy of 89.2%, a significant improvement over the maximum accuracy acheived in the paper (85.5%).  
+
+
