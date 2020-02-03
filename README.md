@@ -6,7 +6,7 @@ Dataset: 20 News Groups (http://qwone.com/~jason/20Newsgroups)
 
 Description of Files in this repository:
 
-Final_CODE.ipynb : Contains our source code   
+- Final_CODE.ipynb : Contains our source code   
 - Generator.ipynb : Contains the code for word2vec and dataset generations     
 - train_data.p : Training dataset after cleaning  
 - desired_train_data.p : Training desired values  
