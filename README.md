@@ -32,6 +32,11 @@ $jupyter notebook
 
 - Additional Model Proposed: Bidirectional WRNN (Replaces the LSTM unit with Bi-LSTM unit)
 
+### Training -
+(Shown for the WRNN model only) 
+
+<img src="/Graphs and Results/W-RNN/WRNN_Graphs.png" alt="Training" style="width:100%">
+
 ### Additional Improvements done in the Architecture of the Model -
 - Introduced Regularization and Recurrent Dropout in the LSTM unit
 - Used Time Distributed Layers to weigh intermidiate output instead oc conv1d layer
