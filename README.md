@@ -15,6 +15,18 @@ Dataset: [20 News Groups](http://qwone.com/~jason/20Newsgroups)
 - Predictions : The prediction list of 100 documents  
 - wordvectors1.kv : word2vec generated keyed vectors 
 
+### Steps to execute the code in this reposirory:
+
+1. Install Anaconda Distribution and all relevant libraries
+
+2. Open up the terminal and type -
+
+``` cmd
+$git clone https://github.com/neelabhsinha/News-text-Classification-Based-on-Weighted-LSTMs.git
+$cd News-text-Classification-Based-on-Weighted-LSTMs
+$jupyter notebook
+```
+
 ### WRNN with LSTM Architecture -
 <img src="/Graphs and Results/W-RNN/WRNN_Chart.png" width="550" height="500">
 
