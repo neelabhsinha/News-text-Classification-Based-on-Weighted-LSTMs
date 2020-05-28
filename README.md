@@ -15,14 +15,27 @@ Dataset: [20 News Groups](http://qwone.com/~jason/20Newsgroups)
 - Predictions : The prediction list of 100 documents  
 - wordvectors1.kv : word2vec generated keyed vectors 
 
-## WRNN -
-<img src="/Graphs and Results/WRNN/WRNN_Chart.png">
+### WRNN with LSTM Architecture -
+<img src="/Graphs and Results/W-RNN/WRNN_Chart.png" width="550" height="500">
 
-Obtained Results:
-- Long Short-Term Memory Netwerk (LSTM RNN) | Accuracy: 82.2%   
-- Bi-directional Long Short-Term Memory Netwerk (Bi-LSTM RNN) | Accuracy: 87.9%  
-- Weighted RNN (W-RNN) | Accuracy: 89.0%  
+- Additional Model Proposed: Bidirectional WRNN (Replaces the LSTM unit with Bi-LSTM unit)
 
-We also developed a new algorithm here which combines the characteristics of both Bi-LSTM RNN and W-RNN and achieves a maximum test accuracy of 89.2%, a significant improvement over the maximum accuracy acheived in the paper (85.5%).  
+### Additional Improvements done in the Architecture of the Model -
+- Introduced Regularization and Recurrent Dropout in the LSTM unit
+- Used Time Distributed Layers to weigh intermidiate output instead oc conv1d layer
+- Used Dropout and L1, L2 architecture in Dense Layers
+
+### Results -
+
+S. No. | Model Name | Accuracy | F1-score (Obtained) | FI-score (as quoted in the paper) |
+-------|------------|----------|----------| ----------------------------------|
+1 | RNN (Baseline 1) | 67.8% | 64.5% | 78% |
+2 | BiLSTM (Baseline 2) | 87.9% | 87.5 % | 75% |
+3 | WRNN (Paper Model) | 89.5% | 88.8% | 84% |
+4 | Bi-WRNN (Additional Model) | 89.2% | 88.7% | - |
+
+- Significant Improvement over results quoted in the paper
+- Additional Model works well
+- The results improved due to better generalization in the model due to proper use of L1, L2 regularization, and Dropout
 
 
