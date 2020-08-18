@@ -36,7 +36,7 @@ $jupyter notebook
 (Shown for the WRNN and Bi-WRNN model only)
 Results of training of all models can be found inside Graphs and Results folder.
 
-<img src="/Graphs and Results/W-RNN/WRNN_Graphs.png" alt="Training" style="width:100%">
+<img src="/Graphs and Results/W-RNN/WRNN_Graphs.png" alt="Training" style="width:80%">
 <img src="/Graphs and Results/Bi-WRNN (Additional to the paper)/Bi_WRNN_Graphs.png" alt="Training" style="width:100%">
 
 ### Additional Improvements done in the Architecture of the Model -
