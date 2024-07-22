@@ -1,8 +1,15 @@
 # News-text-Classification-Based-on-Weighted-LSTMs
 
-This repository is an attempt to implement the technique used in the paper [W-RNN: News Text Classification based on a Weighted RNN](https://arxiv.org/ftp/arxiv/papers/1909/1909.13077.pdf), and then comparing it with tge results obtained with standard LSTM based and Bi-LSTM based techniques. Further, an **additional model is also proposed which improves the performance over the WRNN model**.
+![Type](https://img.shields.io/badge/Type-Course_Project-yellow)
+![Concepts](https://img.shields.io/badge/Concepts-Deep_Learning,_Natural_Language_Processing-blue)
+![Language](https://img.shields.io/badge/Language-Python-red)
+![Libraries](https://img.shields.io/badge/Libraries-Keras,_Tensorflow,_Scikit_Learn-green)
+
+This repository is an attempt to implement the technique used in the paper [W-RNN: News Text Classification based on a Weighted RNN](https://arxiv.org/ftp/arxiv/papers/1909/1909.13077.pdf), and then comparing it with the results obtained with standard LSTM based and Bi-LSTM based techniques. Further, an **additional model is also proposed which improves the performance over the WRNN model**.
 
 Dataset: [20 News Groups](http://qwone.com/~jason/20Newsgroups)
+
+Team Members: Aviral Sethi, Manav Kaushik, Neelabh Sinha
 
 ### Description of Files in this repository:
 
